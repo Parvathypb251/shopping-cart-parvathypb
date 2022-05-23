@@ -87,6 +87,12 @@ body {
 .margin-top-v-sm {
   margin-top: 2.5rem !important;
 }
+.margin-top-10 {
+  margin-top: 10rem !important;
+}
+.margin-top-5 {
+  margin-top: 5rem !important;
+}
 .btnStyle {
   min-width: 30%;
   height: 4.5rem;
@@ -100,4 +106,24 @@ body {
   &:hover {
     background-color: #9e0544 !important;
   }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }
