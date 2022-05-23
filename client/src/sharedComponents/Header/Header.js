@@ -8,7 +8,7 @@ import './Header.scss';
  */
 const Header = () => {
   return (
-    <header className="header">
+    <header className="header sticky ">
       <div className="logo-nav-div">
         <img className="logo" src={logo} alt="sabka bazaar logo image" />
         <nav className="main-nav">

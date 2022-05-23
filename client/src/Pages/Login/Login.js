@@ -27,7 +27,7 @@ const Login = () => {
     <>
       <Header />
       <main>
-        <section className="section-style">
+        <section className="login-section-style margin-top-10">
           <div className="container grid grid--2-cols grid--coln--gap--1 grid--center-v">
             <div className="step-text-box">
               <div className="heading-tertiary">Login</div>

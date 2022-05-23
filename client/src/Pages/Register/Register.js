@@ -29,11 +29,11 @@ const Register = () => {
     <>
       <Header />
       <main>
-        <section className="section-style">
+        <section className="register-section-style margin-top-10">
           <div className="container grid grid--2-cols grid--coln--gap--1 grid--center-v">
             <div className="step-text-box">
               <div className="heading-tertiary">Signup</div>
-              <p className="login-description">
+              <p className="register-description">
                 We do not share your personal details with anyone.
               </p>
             </div>
