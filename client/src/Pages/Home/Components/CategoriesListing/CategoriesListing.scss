@@ -1,0 +1,43 @@
+@import 'assets/styles/baseStyles.scss';
+.category {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
+  padding: 2rem 0;
+}
+.category-image-box,
+.category-text-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.category-img {
+  width: 35%;
+}
+.category-heading {
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+.category-description {
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+.category-nav-link:link,
+.category-nav-link:visited {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+  background-color: #d10057;
+  display: inline-block;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.category-nav-link:hover,
+.category-nav-link:active {
+  background-color: #9e0544;
+}

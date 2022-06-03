@@ -1,0 +1,54 @@
+@import '../../assets/styles/baseStyles.scss';
+
+#dialog_title_div {
+  height: 10rem;
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  background-color: #333;
+  .iconDiv {
+    width: 28rem;
+    .iconImg {
+      width: 23rem;
+      height: 23rem;
+    }
+  }
+}
+#dialoge_body_div {
+  // width: 1180rem;
+  height: calc(100% - #{120rem});
+}
+#dialog_action_div {
+  height: 10rem;
+}
+.cart-head-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart-count-div {
+}
+.myCart-label,
+.myCart-count {
+  color: #ffff;
+  padding: 0.25rem;
+}
+.myCart-label {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.myCart-count {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.close-icon {
+  width: 2.4rem;
+  fill: #fff;
+}
+.MuiDialogContent-root {
+  padding: 0rem !important;
+}
