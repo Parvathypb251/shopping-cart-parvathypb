@@ -1,0 +1,26 @@
+@import '../../assets/styles/baseStyles.scss';
+
+.logo-nav-div {
+  display: flex;
+  align-items: center;
+  gap: 15rem;
+}
+.logo {
+  height: 8rem;
+}
+
+.login-section-style {
+  padding: 2rem 0;
+}
+
+.login-description {
+  font-size: 1.6rem;
+  color: #333;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.formContainer {
+  width: 100%;
+  height: 100%;
+}
